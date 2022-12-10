@@ -1,0 +1,104 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(197, 195, 195);
+    overflow-x: hidden;
+}
+#desc{
+    margin:auto;
+    left: 40vw;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+.time{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.info_cllg{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height:170px;
+    margin-top: 10px;
+}
+.title{
+    position: relative;
+    top:5px;
+    display: flex;
+    flex-direction: row;
+}
+#desc{
+    position: relative;
+}
+#add_icn{
+    height:7vh;
+}
+#clk_icn{
+    height: 7vh;
+}
+#call_icn{
+    height: 6vh;
+}
+#phone{
+    margin-top: 0px;
+    margin-left:30px;
+}
+#address{
+    margin-left:60px;
+}
+#timing{
+    margin-left:60px;
+}
+.info_auth{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    margin-top: 10vh;
+    border:1px solid black;
+    box-shadow: 4px 4px 10px  black;
+    width:20vw;
+    height: 23vh;
+    background-color: white;
+}
+.card:hover{
+    background-color: rgb(252, 252, 205);
+    transform: scale(1.1);
+    
+}
+.card:hover #underline{
+    width:15vw;
+}
+#post{
+    position: relative;
+    left:1vw;
+    margin-bottom: 0px;
+}
+#details{
+    position: relative;
+    left: 1vw;
+}
+#qwe1{
+    width:30vw;
+    height: 4px;
+    background-color: black;
+    margin:auto;
+}
+#underline{
+    position: relative;
+    width: 10vw;
+    margin-left: 10px;
+    margin-top: 7px;
+    height:2px;
+    background-color:black;
+}
